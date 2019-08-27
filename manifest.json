@@ -3,5 +3,11 @@
   "version": "1.0",
   "description": "display a certain countdown!",
   "permissions": ["storage", "declarativeContent", "activeTab"],
+  "default_icon": {
+    "16": "hourglass.png"
+  },
+  "icons": {
+    "16": "hourglass.png"
+  },
   "manifest_version": 2
 }
