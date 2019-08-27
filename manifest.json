@@ -3,11 +3,16 @@
   "version": "1.0",
   "description": "display a certain countdown!",
   "permissions": ["storage", "declarativeContent", "activeTab"],
-  "default_icon": {
-    "16": "hourglass.png"
+  "chrome_url_overrides": {
+    "newtab":"newpage.html"
   },
-  "icons": {
-    "16": "hourglass.png"
+  "browser_action": {
+    "default_icon": "hourglass.png"
   },
+  "permissions":["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
   "manifest_version": 2
 }
